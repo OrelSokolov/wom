@@ -8,6 +8,15 @@ a {
   color: black;
 }
 
+@media screen and (max-width: 768px){
+    .middle {
+      top: 55% !important;
+    }
+    .bgimg {
+      font-size: 10px !important;
+    }
+}
+
 .bgimg {
   /* Background image */
   background-image: url('bg.jpg');
